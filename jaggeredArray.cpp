@@ -5,8 +5,8 @@ int main()
     int n;
     cout<<"enter number of rows:";
     cin>>n;
-    int *arre=new int[n];
     int **arr=new int*[n];
+    int *arre=new int[n];       //separate array for storing number elements in each row
     for(int i=0; i<n; i++) {
         cout<<"enter number of elements of row "<<i<<":";
         cin>>arre[i];
